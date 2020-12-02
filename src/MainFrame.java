@@ -76,10 +76,10 @@ import java.awt.event.ActionListener;
             Box hboxVariables = Box.createHorizontalBox();
             hboxVariables.setBorder(
                     BorderFactory.createLineBorder(Color.BLACK));
-            hboxVariables.add(Box.createHorizontalGlue());
             hboxVariables.add(labelForX);
             hboxVariables.add(Box.createHorizontalStrut(10));
             hboxVariables.add(textFieldX);
+            hboxVariables.add(Box.createHorizontalGlue());
             hboxVariables.add(Box.createHorizontalStrut(100));
             hboxVariables.add(Box.createHorizontalGlue());
             hboxVariables.add(labelForY);
@@ -87,10 +87,10 @@ import java.awt.event.ActionListener;
             hboxVariables.add(textFieldY);
             hboxVariables.add(Box.createHorizontalGlue());
             hboxVariables.add(Box.createHorizontalStrut(100));
+            hboxVariables.add(Box.createHorizontalGlue());
             hboxVariables.add(labelForZ);
             hboxVariables.add(Box.createHorizontalStrut(10));
             hboxVariables.add(textFieldZ);
-            hboxVariables.add(Box.createHorizontalGlue());
 
             // Создать область для вывода результата
             JLabel labelForResult = new JLabel("Результат:");
